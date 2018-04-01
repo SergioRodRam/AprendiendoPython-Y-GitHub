@@ -1,2 +1,3 @@
-print "Hola mundos"
-print ("Este es otro hola mudno")
+print "Hola, este es un hola mundo"
+print ("Este es otro hola mundo")
+
