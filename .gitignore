@@ -1,1 +1,120 @@
 carpetaIgnorada
+# Creado por https://www.gitignore.io/api/linux,python
+
+### Linux ###
+* ~
+
+# archivos temporales que se pueden crear si un proceso todavía tiene un identificador abierto de un archivo eliminado
+.fuse_hidden *
+
+# Preferencias de directorio KDE
+.directorio
+
+# Carpeta de basura Linux que puede aparecer en cualquier partición o disco
+.Basura-*
+
+Los archivos # .nfs se crean cuando se elimina un archivo abierto pero aún se está accediendo
+.nfs *
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache __ /
+* .py [cod]
+* $ py.class
+
+Extensiones # C
+*.asi que
+
+# Distribución / embalaje
+.Pitón
+construir/
+desarrollar-huevos /
+dist /
+descargas /
+huevos/
+.huevos/
+lib /
+lib64 /
+partes/
+sdist /
+var /
+ruedas /
+* .egg-info /
+.installed.cfg
+*.huevo
+
+# PyInstaller
+# Por lo general, estos archivos están escritos por un script de python a partir de una plantilla
+# antes de que PyInstaller construya el exe, para inyectarle fecha / otras informaciones.
+*.manifiesto
+*.especulación
+
+# Registros de instalador
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Pruebas unitarias / informes de cobertura
+htmlcov /
+.tox /
+.cobertura
+.cobertura.*
+.cache
+.pytest_cache /
+nosetests.xml
+coverage.xml
+*.cubrir
+.hipótesis/
+
+# Traducciones
+*.mes
+*.maceta
+
+# Frasco de cosas:
+ejemplo/
+.webassets-cache
+
+# Cosas de Scrapy:
+.scrapy
+
+# Documentación de Sphinx
+docs / _build /
+
+# PyBuilder
+objetivo/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-versión
+
+# archivo de calendario de ritmo apio
+apio de celery-schedule. *
+
+# SageMath archivos analizados
+* .sage.py
+
+# Entornos
+.env
+.venv
+env /
+venv /
+ENV /
+env.bak /
+venv.bak /
+
+# Configuración del proyecto Spyder
+.spyderproject
+.spyproject
+
+# Configuración del proyecto de cuerda
+.ropeproject
+
+# documentación de mkdocs
+/sitio
+
+# mypy
+.mypy_cache /
+
+
+# Fin de https://www.gitignore.io/api/linux,python
