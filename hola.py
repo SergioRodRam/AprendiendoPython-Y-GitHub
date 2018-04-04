@@ -1,2 +1,3 @@
-print "Hola Mundo :v"
+print "Hola Mundo, windows :v"
 print "Nuevo Hola"
+raw_input()
