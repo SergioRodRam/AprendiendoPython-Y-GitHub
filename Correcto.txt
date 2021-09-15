@@ -1,1 +1,3 @@
 Si se puede subir este cambio es que se configuro correctamente el git
+
+Confirmo si se subieron los cambios desde la computadora 
